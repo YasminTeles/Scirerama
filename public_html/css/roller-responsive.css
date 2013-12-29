@@ -1,0 +1,126 @@
+@media (min-width: 980px) and (max-width: 1199px) {
+.navbar .nav > li > a {
+  padding: 22px 15px 22px 15px;
+}
+
+#section-5 .contact-info .contact-link {
+  font-size: 14px;
+}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+.pricing {
+  width: 90%;
+}
+
+.profile .row-fluid .offset1 {
+  margin: 0;
+  padding: 0;
+}
+
+.profile .row-fluid .span6 {
+  width: 90%;
+  float: left;
+  clear: left;
+  margin: 0 5%;
+  padding: 0;
+  padding-top: 30px;
+}
+
+.profile .row-fluid .span5 {
+  width: 85%;
+  float: left;
+  clear: left;
+  margin: 0 7.5%;
+  padding: 0;
+}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+.navbar-wrapper {
+  position: fixed;
+  margin-top: 0px;
+}
+
+.navbar-inverse .navbar-inner {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.navbar .nav > li > a {
+  padding: 10px 20px 10px 20px;
+}
+
+body {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.pricing {
+  width: 90%;
+}
+.pricing .pricing-column {
+  width: 100%;
+  clear: left;
+  margin-bottom: 30px;
+}
+
+.item img, .profile img {
+  width: 75%;
+}
+
+section .container, footer .container {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.row-fluid [class*="span"] {
+  margin-bottom: 30px;
+}
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+body {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+section .container, footer .container {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+section h2 {
+  font-size: 2.5em;
+}
+
+.pricing {
+  width: 90%;
+}
+.pricing .pricing-column {
+  width: 100%;
+  clear: left;
+  margin-bottom: 30px;
+}
+
+.row-fluid [class*="span"] {
+  margin-bottom: 30px;
+}
+
+.item img, .profile img {
+  width: 93%;
+}
+
+.slide-page {
+  padding: 10px;
+}
+.slide-page p {
+  font-size: 1em;
+}
+.slide-page h2 {
+  font-size: 2.5em;
+}
+}

@@ -1,0 +1,264 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scirerama</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <link href="css/css.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+        <link href="css/roller.css" rel="stylesheet" type="text/css">
+        <link href="css/roller-responsive.css" rel="stylesheet" type="text/css">
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link href="css/animate.css" rel="stylesheet" type="text/css">
+        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+        <!--<link href="css/leaflet.css" rel="stylesheet" type="text/css">-->
+
+        <!--<div style="display: none;" id="fit-vids-style" class="fit-vids-style">­<style>                 .fluid-width-video-wrapper {                   width: 100%;                                position: relative;                         padding: 0;                              }                                                                                       .fluid-width-video-wrapper iframe,          .fluid-width-video-wrapper object,          .fluid-width-video-wrapper embed {             position: absolute;                         top: 0;                                     left: 0;                                    width: 100%;                                height: 100%;                            }                                         </style></div>-->
+
+        <script type="text/javascript" src="tema/modernizr.js"></script>
+    </head>
+
+    <body>
+        <div id="page" class="page">
+            <!-- Section 1 -->
+            <section class="main" id="section-1">
+                <div class="container">
+                    <h2 class="text-center">Scirerama</h2>
+                  
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <p class="introducao">
+                                Nem todos os usuários de ontologias e/ou wikis 
+                                semânticos são capazes de escrever ou entender 
+                                os conceitos complexos que podem figurar em 
+                                consul- tas do Semantic MediaWiki.
+                            </p>
+                            <p class="introducao">
+                                Como um dos objetivos da web semântica é tornar 
+                                o conhecimento ampla- mente acessível, apresentamos 
+                                o Scirerama uma linguagem visual para repre- sentar 
+                                consultas do Semantic MediaWiki.
+                            </p>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row-fluid">
+                        <div class="span12 text-center">
+                            <a class="btn btn-large btn-success goto" href="#section-2"> Tutorial </a>
+                            <a class="btn btn-large btn-success goto" href="#section-3"> Teste agora! </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 2 -->
+            <section class="main" id="section-2">
+                <div class="container">
+                    <!-- START Title Row -->
+                    <div class="row-fluid">
+                        <div class="span12 text-center">
+                            <h2>Elementos do Scirerama para representar um conceito</h2>
+                        </div>
+                    </div>
+                    <!-- END Title Row -->
+
+                    <!-- START Callout Row -->
+                    <div class="row-fluid">
+
+                        <!-- Callout 1 -->
+                        <div class="span6 callout">
+                            <div class="callout-title">
+                                <img id="sujeito" src="imagens/sujeitotutorial.png" height="50" width="50">
+                                <h4>Sujeito</h4>
+                            </div>
+                            <p class="lead">
+                                Representa pesquisas de categorias, páginas e nomespace.<br>
+                                Onde para cada tipo de sujeito uma imagem diferente 
+                                esta associada e um rótulo deverá ser preenchido 
+                                para validar a consulta.
+                            </p>
+                        </div>
+
+                        <!-- Callout 2 -->
+                        <div class="span6 callout">
+                            <div class="callout-title">
+                                <img id="propriedade" src='imagens/propriedadetutorial.png' height="10" width="10"/>
+                                <h4>Proprieade</h4>
+                            </div>
+                            <p class="lead">
+                                Representa pesquisas de propriedade.<br>
+                                Onde a propriedade e o rótulo deverá ser preenchido 
+                                para validar a consulta. 
+                                Porém, no caso do rótulo, somente poderá ser 
+                                fornecido um valor alfanumérico ou um sujeito.<br>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- END Callout Row -->
+
+                    <!-- START Callout Row -->
+                    <div class="row-fluid">
+                        
+                        <!-- Callout 3 -->
+                        <div class="span4 callout">
+                            <div class="callout-title">
+                                <img id="and" src="imagens/and.png" height="10" width="10"/>
+                                <h4>E</h4>
+                            </div>
+                            <p class="lead">
+                                Representa uma conjunção de consultas, que é 
+                                composto por no mínimo dois casos.
+                            </p>
+                        </div>
+                        
+                        <!-- Callout 1 -->
+                        <div class="span4 callout">
+                            <div class="callout-title">
+                                <img id="or" src="imagens/or.png" height="10" width="10"/>
+                                <h4>OU</h4>
+                            </div>
+                            <p class="lead">
+                                Representa uma disjunção de consultas, 
+                                assim como E, é composto por no mínimo dois casos.
+                            </p>
+                        </div>
+
+                        <!-- Callout 2 -->
+                        <div class="span4 callout">
+                            <div class="callout-title">
+                                <h4>ANY</h4>
+                            </div>
+                            <p class="lead">
+                                É um valor especial, i.e. predefinido, que 
+                                pode ser usado no rótulo do sujeito ou no valor 
+                                de propriedade.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- END Callout Row -->
+
+                    <div class="row-fluid">
+                        <div class="span12 text-center">
+                            <a class="btn btn-large btn-success goto" href="#section-3"> Teste agora! </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 3 -->
+            <section class="main" id="section-3">
+                <div class="container">
+                    <h2 class="text-center">Área de modelagem </h2>
+                    
+                    <div class="row-fluid">
+                        <div class="span12 text-center">
+                            <div id="alerta" style="display: none;border: 1px solid #fcefa1; border-radius: 4px; background: #fbf9ee; color: #363636; margin-bottom: 10px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <!-- area de desenho -->
+                        <div class="span8">
+                            <div id="container" style="border: 3px solid #363636; border-radius: 4px; background-color: white;"></div>
+                        </div>
+
+                        <!-- menu -->
+                        <div class="span4 text-center">
+                            <div id="menu" style="border: 3px solid #363636; border-radius: 4px; background-color: white;">
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row-fluid">
+                        <!-- Filtro da pesquisa -->
+                        <div class="span8">
+                            <textarea class="span12" id="filtro" style="resize: none; border: 3px solid #363636; border-radius: 4px;" placeholder="Digite um filtro para sua consulta."></textarea>
+                        </div>
+
+                        <!-- Botão -->
+                        <div class="span4 text-center">
+                            <a id="botaoPesquisar" class="btn btn-large btn-success goto" href="#section-4"> Pesquisar! </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 4 -->
+            <section class="main" id="section-4">
+                <div class="container">
+                    <div class="row-fluid">
+                        <div class="span12 text-center">
+                            <h2>Resultado</h2>
+                        </div>
+                    </div>
+
+                    <!-- Tabela de resultado -->
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <div id="resposta">
+                            <table id="tabela"  border=1>
+<!--                            <thead style="background:#5858FA">
+                                <tr> 
+                                    <th style="color:white"> Nome muito muito grande </th>
+                                    <th> E-mail </th>
+                                </tr>
+                            </thead>
+
+                            <tbody style="background:white;">
+                                <tr>
+                                    <td><a style="color:black"> Ha! maior ainda</a></td>
+                                    <td> Oi </td>
+                                </tr>
+                            </tbody>-->
+                            </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tabela de resultado -->
+                </div>
+            </section>
+
+            <!-- START Footer -->
+            <footer>
+                <div class="container">
+                    <div class="row-fluid footer">
+                        <div class="span6 credit">
+                           © 2013 Company Name &nbsp;&nbsp;|&nbsp;&nbsp;  LLarc - Laboratório de lógica e representação do conhecimento  &nbsp;&nbsp;|&nbsp;&nbsp UFF - Universidade Federal Fluminense
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- END Footer -->
+        </div>
+        <!-- END Page Wrapper -->
+
+        <!--Scripts do tema-->
+        <script type="text/javascript" src="tema/jquery_002.js"></script>
+        <script>window.jQuery || document.write('<script type="text/javascript" src="js/jquery.min.js">\x3C/script>');</script>
+        <script type="text/javascript" src="tema/bootstrap.js"></script>
+        <script type="text/javascript" src="tema/jquery_003.js"></script>
+        <script type="text/javascript" src="tema/jquery_005.js"></script>
+        <script type="text/javascript" src="tema/jquery_004.js"></script>
+        <script type="text/javascript" src="tema/jquery.js"></script>
+        <script type="text/javascript" src="tema/packery.js"></script>
+        <script type="text/javascript" src="tema/script.js"></script>
+        <!--<script type="text/javascript" src="tema/leaflet.js"></script>-->
+        
+        <!--Script do DataTabe-->
+        <script type="text/javascript" src="datatable/jquery.dataTables.min.js"></script>
+        
+        <!--Scripts do Scirerama-->
+        <script type="text/javascript" src="modelo/kinetic-v4.6.0.min.js"></script>
+        <script type="text/javascript" src="modelo/interface.js"></script>
+        <script type="text/javascript" src="modelo/modelo.js"></script>
+        <script type="text/javascript" src="modelo/menu.js"></script>
+        <script type="text/javascript" src="modelo/principal.js"></script>
+
+    </body>
+</html>
